@@ -1,0 +1,5 @@
+<filter>
+  <interfaces xmlns="http://openconfig.net/yang/interfaces">
+    <interface/>
+  </interfaces>
+</filter>

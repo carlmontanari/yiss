@@ -1,0 +1,35 @@
+<filter>
+  <l2vpnv2 xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-l2vpn-oper">
+    <active>
+      <xconnects>
+        <xconnect>
+          <segment1>
+            <attachment-circuit>
+              <interface>
+                <name/>
+              </interface>
+              <state/>
+            </attachment-circuit>
+            <pseudo-wire>
+             <local-source-address/>
+             <state/>
+            </pseudo-wire>
+          </segment1>
+          <segment2>
+            <attachment-circuit>
+              <interface>
+                <name/>
+              </interface>
+              <state/>
+            </attachment-circuit>
+            <pseudo-wire>
+             <local-source-address/>
+             <state/>
+            </pseudo-wire>
+          </segment2>
+          <group-name-xr/>
+        </xconnect>
+      </xconnects>
+    </active>
+  </l2vpnv2>
+</filter>

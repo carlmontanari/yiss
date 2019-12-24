@@ -1,0 +1,10 @@
+<filter>
+  <isis xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-clns-isis-oper">
+    <instances>
+      <instance>
+          <neighbors/>
+        <instance-name/>
+      </instance>
+    </instances>
+  </isis>
+</filter>

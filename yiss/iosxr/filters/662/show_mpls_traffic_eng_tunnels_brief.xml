@@ -1,0 +1,16 @@
+<filter>
+  <mpls-te xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-mpls-te-oper">
+    <p2p-p2mp-tunnel>
+      <tunnel-remote-briefs>
+        <tunnel-remote-brief>
+          <destination-address/>
+          <signaled-name/>
+          <s2l>
+            <uptime/>
+            <oper-state/>
+          </s2l>
+        </tunnel-remote-brief>
+      </tunnel-remote-briefs>
+    </p2p-p2mp-tunnel>
+  </mpls-te>
+</filter>

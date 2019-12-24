@@ -1,0 +1,29 @@
+<filter>
+  <bgp xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-ipv4-bgp-oper">
+    <instances>
+      <instance>
+        <instance-active>
+          <default-vrf>
+            <neighbors>
+              <neighbor>
+                <af-data>
+                  <neighbor-version/>
+                  <prefixes-accepted/>
+                </af-data>
+                <neighbor-address/>
+                <speaker-id/>
+                <remote-as/>
+                <messages-received/>
+                <messages-sent/>
+                <messages-queued-in/>
+                <messages-queued-out/>
+                <connection-established-time/>
+                <connection-state/>
+              </neighbor>
+            </neighbors>
+          </default-vrf>
+        </instance-active>
+      </instance>
+    </instances>
+  </bgp>
+</filter>

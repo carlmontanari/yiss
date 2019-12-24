@@ -1,0 +1,8 @@
+tox>=3.14.0
+black>=19.10b0
+pylama>=7.7.1
+pycodestyle>=2.5.0
+pydocstyle>=4.0.1
+pylint>=2.4.4
+darglint>=1.1.0
+-r requirements.txt
