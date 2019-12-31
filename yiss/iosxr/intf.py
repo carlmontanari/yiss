@@ -52,7 +52,7 @@ class INTF:
              0 output buffer failures, 0 output buffers swapped out
              0 carrier transitions
         """
-        resp = self.get(self.get_filter())
+        resp = self.get(self._get_filter())
         if full_output:
             return resp
         resp = xmltodict.parse(resp.xml)
